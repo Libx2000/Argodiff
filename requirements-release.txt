@@ -1,0 +1,4 @@
+-r requirements_oe.txt
+matplotlib>=3.10,<3.12
+pillow>=10
+pypdf>=6

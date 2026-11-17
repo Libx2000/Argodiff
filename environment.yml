@@ -1,0 +1,16 @@
+name: diffargo
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - netcdf4>=1.7
+  - pyyaml>=6
+  - tqdm>=4.66
+  - tensorboard>=2.16
+  - pytest>=8
+  # Select a PyTorch/CUDA build supported by the target cluster.
+  - pytorch>=2.2
+

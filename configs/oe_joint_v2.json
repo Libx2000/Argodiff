@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "parent_protocol": "runs/paper_supplement_v1/frozen_protocol.json",
+  "stage_a_freeze": "runs/oe_physics_v1/frozen_legacy2021.json",
+  "source_declaration": "configs/oe_source_declaration.json",
+  "branches": {
+    "legacy": {
+      "output_root": "runs/oe_joint_legacy_v2",
+      "split_root": "data/Argo/argo_derived/paper_split_v1",
+      "reference_calibration": "runs/paper_supplement_v1/calibration_2018.npz"
+    },
+    "consistent": {
+      "output_root": "runs/oe_joint_consistent_v2",
+      "split_root": "data/Argo/argo_derived/oe_split_v2",
+      "reference_calibration": "runs/paper_supplement_v1/calibration_2018.npz"
+    }
+  },
+  "days": 90,
+  "members": 50,
+  "sampling_steps": 50,
+  "residual_scale": 1.0,
+  "seeds": [20261006, 20261017],
+  "sample_seed": 20261014,
+  "global_sample_points": 384,
+  "regional_sample_points": 96,
+  "selection_support": "common",
+  "regional_feather_degrees": 3.0,
+  "regions": [
+    {"name": "south_china_sea", "latitude": [10.0, 25.0], "longitude": [110.0, 125.0]},
+    {"name": "northwest_pacific", "latitude": [25.0, 40.0], "longitude": [125.0, 150.0]}
+  ],
+  "pycnocline_depth_m": [10.0, 500.0],
+  "negative_n2_thresholds_s2": [0.0, -0.000001, -0.00001, -0.0001],
+  "candidates": {
+    "length_m": [30.0, 75.0, 150.0],
+    "mix": [0.5, 1.0],
+    "amplitude": [0.85, 1.0, 1.2],
+    "regional_gain": [1.0, 1.4],
+    "max_renormalization": 3.0
+  },
+  "objective_region_weights": {"global": 0.5, "south_china_sea": 0.25, "northwest_pacific": 0.25},
+  "acceptance": {
+    "crps_relative_tolerance": 0.02,
+    "rmse_relative_tolerance": 0.01,
+    "window_crps_relative_tolerance": 0.05,
+    "global_coverage_tolerance": 0.05,
+    "regional_coverage_tolerance": 0.10,
+    "n2_max_spread_skill": 1.5,
+    "severity_guard_threshold_s2": -0.00001,
+    "severity_brier_relative_tolerance": 0.05,
+    "coverage_objective_weight": 2.0
+  },
+  "nudging_gains": [0.01, 0.03, 0.10, 0.30],
+  "snapshot_leads": [1, 30, 90],
+  "snapshot_points": [
+    {"latitude": 18.0, "longitude": 115.0},
+    {"latitude": 15.0, "longitude": 120.0},
+    {"latitude": 32.0, "longitude": 135.0}
+  ],
+  "interpretation": "2018 fit, 2019 validation; seasons are blocks, noise seeds are nested sensitivity replicates. No 2021/2022 tuning. The inherited marginal factors are a fixed 2018 reference, not claimed to have been refit on a new observation export."
+}

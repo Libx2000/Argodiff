@@ -1,0 +1,22 @@
+{
+  "config": "configs/residual_diffusion.yaml",
+  "deterministic_checkpoint": "runs/hpc_rollout_h7/checkpoint_best.pt",
+  "residual_checkpoint": "runs/residual_diffusion_guided/checkpoint_best.pt",
+  "residual_stats": "artifacts/residual_stats_rollout_h7.npz",
+  "state_stats": "artifacts/stats_train_1993_2016.npz",
+  "argo_split_root": "data/Argo/argo_derived/paper_split_v1",
+  "fit_year": 2018,
+  "validation_year": 2019,
+  "test_year": 2021,
+  "seed": 20260922,
+  "sampling_steps": 50,
+  "sampling_eta": 0.0,
+  "residual_scale": 0.25,
+  "temperature_guidance": 0.10,
+  "salinity_guidance": 0.02,
+  "guidance_start": 0.40,
+  "nudging_gain": 0.30,
+  "snapshot_every": 30,
+  "log_shrinkage": 0.10,
+  "max_factor": 80.0
+}

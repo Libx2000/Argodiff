@@ -1,0 +1,17 @@
+{
+  "working_depth_m": [50.0, 200.0],
+  "pycnocline_depth_m": [10.0, 500.0],
+  "reference_density_kgm3": [1025.0],
+  "force_tolerances_N_m3": [1.0, 5.0, 10.0],
+  "regions": [
+    {"name": "south_china_sea", "latitude": [10.0, 25.0], "longitude": [110.0, 125.0]},
+    {"name": "northwest_pacific", "latitude": [25.0, 40.0], "longitude": [125.0, 150.0]}
+  ],
+  "snapshot_leads": [1, 30, 90],
+  "snapshot_points": [
+    {"latitude": 18.0, "longitude": 115.0},
+    {"latitude": 15.0, "longitude": 120.0},
+    {"latitude": 32.0, "longitude": 135.0}
+  ],
+  "interpretation": "Predeclared exploratory boxes and hypothetical rigid instrument bulk density/tolerances, not real device specifications or safety certification. Do not choose parameters using 2021 outcome gains."
+}

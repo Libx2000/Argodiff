@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-17",
+  "source": "Explicit author/user instruction in the packaging conversation",
+  "instruction": "License original data under CC BY 4.0 and original code under MIT.",
+  "original_data_license": "CC-BY-4.0",
+  "original_code_license": "MIT",
+  "third_party_rights_unchanged": true,
+  "copyright_notice": "Copyright (c) 2026 the DiffArgo contributors",
+  "release_changes": ["LICENSE", "RIGHTS.md", "README.md", "RELEASE_VALIDATION.md", "THIRD_PARTY_NOTICES.md", "pyproject.toml (licence metadata only)"],
+  "scientific_code_modified": false,
+  "english_repository_note": "The duplicate Chinese-language guide is excluded, and this instruction is translated without changing the licensing decision. Original local release files are preserved.",
+  "published": false
+}

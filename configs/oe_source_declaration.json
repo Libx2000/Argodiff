@@ -1,0 +1,10 @@
+{
+  "human_confirmed": false,
+  "vertical_coordinate": "unconfirmed",
+  "temperature_kind": "unconfirmed",
+  "salinity_kind": "practical_salinity",
+  "quality_policy": "export_disclosed",
+  "quality_provenance": "",
+  "allow_filename_date": false,
+  "note": "Complete only after checking source_metadata.json and the upstream export documentation. vertical_coordinate: pressure_dbar, depth_m, or depth_negative_m. temperature_kind: in_situ or potential_0dbar. quality_policy: export_disclosed or native_adjusted. Missing QC is never silently certified."
+}

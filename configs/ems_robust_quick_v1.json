@@ -1,0 +1,16 @@
+{
+  "schema": "ems-robust-quick-v1",
+  "base_config": "configs/ems_v1_legacy.json",
+  "output_root": "runs/ems_robust_quick_v1",
+  "days": 60,
+  "members": 50,
+  "sampling_steps": 10,
+  "seed": 20261006,
+  "starts": [{"season": "winter", "month": 1}, {"season": "summer", "month": 7}],
+  "scenarios": ["nominal", "columns50", "outage15"],
+  "methods": ["guided_raw", "nudging_selected"],
+  "physics_leads": [1, 15, 30, 45, 46, 60],
+  "chunk_columns": 512,
+  "post_execution_budget_amendment": true,
+  "interpretation": "Separate exploratory 60-day/10-step/50-member sensitivity screen, not the original 90-day/50-step/160-case robust protocol or the selected physical model. Daily T/S scores; physical and joint-profile scores only at declared leads. No parameter retuning or unseen-year authorization."
+}

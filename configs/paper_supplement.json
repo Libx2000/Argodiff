@@ -1,0 +1,9 @@
+{
+  "fine_checkpoint": "runs/residual_rollout_v1/checkpoint_best.pt",
+  "raw_argo_root": "data/Argo",
+  "days": 90,
+  "members": 50,
+  "blind_years": [2021],
+  "max_factor": 80.0,
+  "log_shrinkage": 0.10
+}

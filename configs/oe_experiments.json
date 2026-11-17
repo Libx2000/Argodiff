@@ -1,0 +1,20 @@
+{
+  "output_root": "runs/oe_physics_v1",
+  "parent_frozen_protocol": "runs/paper_supplement_v1/frozen_protocol.json",
+  "diagnostics_config": "configs/oe_diagnostics.json",
+  "legacy_split_root": "data/Argo/argo_derived/paper_split_v1",
+  "consistent_split_root": "data/Argo/argo_derived/oe_split_v2",
+  "legacy_calibration": "runs/paper_supplement_v1/calibration_2018.npz",
+  "consistent_calibration": "runs/oe_physics_v1/calibration_consistent_2018.npz",
+  "raw_argo_root": "data/Argo",
+  "days": 90,
+  "members": 50,
+  "sampling_steps": 50,
+  "residual_scale": 1.0,
+  "nudging_gain": 0.30,
+  "seeds": [20261006, 20261017],
+  "methods": ["deterministic", "nudging", "unguided_centered", "old_paired", "fine_paired", "fine_calibrated"],
+  "calibration_fit_year": 2018,
+  "max_factor": 80.0,
+  "log_shrinkage": 0.10
+}

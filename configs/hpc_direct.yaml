@@ -1,0 +1,52 @@
+seed: 20260910
+
+data:
+  root: "data/reanalysis_31year"
+  temperature_subdir: "thetao_glor_1.5deg"
+  salinity_subdir: "so_glor_1.5deg"
+  temperature_pattern: "thetao_glor_{year}_0_1.5deg.nc"
+  salinity_pattern: "so_glor_{year}_0_1.5deg.nc"
+  temperature_variable: "thetao_glor"
+  salinity_variable: "so_glor"
+  depth_name: "elevation"
+  latitude_name: "lat"
+  longitude_name: "lon"
+  time_name: "time"
+  train_years: [1993, 2016]
+  val_years: [2017, 2019]
+  test_years: [2020, 2023]
+  context_days: 3
+  lead_days: 1
+  stats_path: "artifacts/stats_train_1993_2016.npz"
+  stats_chunk_days: 10
+  file_cache_size: 8
+
+model:
+  base_channels: 64
+  channel_multipliers: [1, 2, 4, 6]
+  time_embedding_dim: 256
+  dropout: 0.05
+  attention_at_bottleneck: true
+
+diffusion:
+  timesteps: 1000
+  beta_schedule: "cosine"
+  sampling_steps: 50
+  ddim_eta: 0.0
+
+train:
+  objective: "direct_increment"
+  output_dir: "runs/hpc_direct"
+  epochs: 120
+  batch_size: 4
+  num_workers: 8
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  gradient_accumulation: 2
+  gradient_clip_norm: 1.0
+  amp: true
+  amp_dtype: "bfloat16"
+  ema_decay: 0.999
+  log_every_steps: 50
+  early_stop_patience: 20
+  resume: null

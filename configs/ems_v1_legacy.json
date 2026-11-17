@@ -1,0 +1,24 @@
+{
+  "base_config": "configs/oe_stability_v3.json",
+  "output_root": "runs/ems_v1_legacy",
+  "branch": "legacy_diagnostic",
+  "source_residual_checkpoint": "runs/residual_diffusion_guided/checkpoint_best.pt",
+  "tune_days": 30,
+  "robust_days": 90,
+  "budget_days": 30,
+  "observation_seed": 20261018,
+  "profile_sample_seed": 271828,
+  "profile_sample_points": 256,
+  "gaussian_error_scales": [0.5, 1.0, 2.0],
+  "budget_members": [8, 20, 50],
+  "budget_steps": [10, 25, 50],
+  "scenarios": [
+    {"id": "nominal", "retention": 1.0, "temperature_noise": 0.0, "salinity_noise": 0.0},
+    {"id": "columns50", "retention": 0.5, "temperature_noise": 0.0, "salinity_noise": 0.0},
+    {"id": "columns25", "retention": 0.25, "temperature_noise": 0.0, "salinity_noise": 0.0},
+    {"id": "noise_moderate", "retention": 1.0, "temperature_noise": 0.1, "salinity_noise": 0.02},
+    {"id": "noise_high", "retention": 1.0, "temperature_noise": 0.5, "salinity_noise": 0.1},
+    {"id": "outage15", "retention": 1.0, "temperature_noise": 0.0, "salinity_noise": 0.0, "outage_start": 31, "outage_end": 45}
+  ],
+  "interpretation_ems": "All inherited Argo data remain exploratory because temperature/QC provenance is unresolved. Observation thinning acts on aggregated grid columns, NOT raw profiles. Synthetic noise is not an estimate of Argo sensor error. New scientific outcomes are pending HPC execution."
+}

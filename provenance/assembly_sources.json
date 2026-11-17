@@ -1,0 +1,932 @@
+[
+  {
+    "package": "code",
+    "path": "archive_slurm/submit_ems_robust_quick.slurm",
+    "source": "submit_ems_robust_quick.slurm",
+    "source_collection": "diffArgo",
+    "kind": "historical_scheduler",
+    "bytes": 848,
+    "sha256": "207e70c73e14e5ad1a1d22b3bf268f22126fc30968fb0b38ed00136d6d9d7de2",
+    "source_sha256": "207e70c73e14e5ad1a1d22b3bf268f22126fc30968fb0b38ed00136d6d9d7de2"
+  },
+  {
+    "package": "code",
+    "path": "archive_slurm/submit_ems_robust_quick_tools.slurm",
+    "source": "submit_ems_robust_quick_tools.slurm",
+    "source_collection": "diffArgo",
+    "kind": "historical_scheduler",
+    "bytes": 871,
+    "sha256": "92ad829dba1025f9853cc72d14a8c1de7a919bbff04d36ec68a65640588421b4",
+    "source_sha256": "92ad829dba1025f9853cc72d14a8c1de7a919bbff04d36ec68a65640588421b4"
+  },
+  {
+    "package": "code",
+    "path": "argo_common.py",
+    "source": "argo_common.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 8724,
+    "sha256": "fe648d82feafc454307e331eb784d5e7f7886f654a1ae10e3c551e8896590271",
+    "source_sha256": "fe648d82feafc454307e331eb784d5e7f7886f654a1ae10e3c551e8896590271"
+  },
+  {
+    "package": "code",
+    "path": "argo_daily_profile_stats.py",
+    "source": "argo_daily_profile_stats.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 6293,
+    "sha256": "4c6c9915ce21ba9149ac542cae974554f465d0fd7494662023c35ced5cb1491b",
+    "source_sha256": "4c6c9915ce21ba9149ac542cae974554f465d0fd7494662023c35ced5cb1491b"
+  },
+  {
+    "package": "code",
+    "path": "argo_guided_cycle.py",
+    "source": "argo_guided_cycle.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 34643,
+    "sha256": "ff6bc57d445ad08411b6e49be27cf7de1e5110b1f339e98e5469a4ef113e1791",
+    "source_sha256": "ff6bc57d445ad08411b6e49be27cf7de1e5110b1f339e98e5469a4ef113e1791"
+  },
+  {
+    "package": "code",
+    "path": "audit_oe_argo.py",
+    "source": "audit_oe_argo.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 8218,
+    "sha256": "8444add5ade2a77fdc679f25b7fd99882ad47c06d2d82bf1308f1599f644256b",
+    "source_sha256": "8444add5ade2a77fdc679f25b7fd99882ad47c06d2d82bf1308f1599f644256b"
+  },
+  {
+    "package": "code",
+    "path": "audit_paper_argo.py",
+    "source": "audit_paper_argo.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 7236,
+    "sha256": "1c0eb7836163df221616685de4b7928db4d7b535d3c86331287cad8cd7f35e44",
+    "source_sha256": "1c0eb7836163df221616685de4b7928db4d7b535d3c86331287cad8cd7f35e44"
+  },
+  {
+    "package": "code",
+    "path": "compute_residual_stats.py",
+    "source": "compute_residual_stats.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 3128,
+    "sha256": "8aed2331db201317b3dc0a52386f620e2bafffcfcbe7bf22d29c8194f6f26fb5",
+    "source_sha256": "8aed2331db201317b3dc0a52386f620e2bafffcfcbe7bf22d29c8194f6f26fb5"
+  },
+  {
+    "package": "code",
+    "path": "compute_stats.py",
+    "source": "compute_stats.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 4333,
+    "sha256": "d7a5320e3942e1ff4c28ebfff2d590a7ce1bfd8cd031e7fb385c00ab17e3be7a",
+    "source_sha256": "d7a5320e3942e1ff4c28ebfff2d590a7ce1bfd8cd031e7fb385c00ab17e3be7a"
+  },
+  {
+    "package": "code",
+    "path": "configs/ems_robust_quick_v1.json",
+    "source": "configs/ems_robust_quick_v1.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 806,
+    "sha256": "be4f106bb66787e3f39dd021252a3a3015965cdd060522a5f93967203ed2fcb5",
+    "source_sha256": "be4f106bb66787e3f39dd021252a3a3015965cdd060522a5f93967203ed2fcb5"
+  },
+  {
+    "package": "code",
+    "path": "configs/ems_v1_legacy.json",
+    "source": "configs/ems_v1_legacy.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 1391,
+    "sha256": "d5d61ae549fe6e27f779cf3a3aa18dafd76f7b0c0f45a00aebc0280066082074",
+    "source_sha256": "d5d61ae549fe6e27f779cf3a3aa18dafd76f7b0c0f45a00aebc0280066082074"
+  },
+  {
+    "package": "code",
+    "path": "configs/ems_validate61_v1.json",
+    "source": "configs/ems_validate61_v1.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 857,
+    "sha256": "6c8e9ae03f7f51755906732c9b539ae32f3981502a726cbc329e2937a4d82c1e",
+    "source_sha256": "6c8e9ae03f7f51755906732c9b539ae32f3981502a726cbc329e2937a4d82c1e"
+  },
+  {
+    "package": "code",
+    "path": "configs/hpc_direct.yaml",
+    "source": "configs/hpc_direct.yaml",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 1179,
+    "sha256": "b1eae37af8cd03a457978b998033245400cbdd297dd3dd8a035bc8f1cfb797c8",
+    "source_sha256": "87d51b58abcfd024198b3518fb078a8f5a0693f3601b906a70f8d029fabba5a6"
+  },
+  {
+    "package": "code",
+    "path": "configs/hpc_rollout_h7.yaml",
+    "source": "configs/hpc_rollout_h7.yaml",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 1980,
+    "sha256": "efd7846ac76bc7dc8cc34fb52c95ba532688f02c2f55facdad704951158562f6",
+    "source_sha256": "9b28c872aabe79732921677f99d96101346cad535f179380fb32b8cb5af08525"
+  },
+  {
+    "package": "code",
+    "path": "configs/oe_diagnostics.json",
+    "source": "configs/oe_diagnostics.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 769,
+    "sha256": "4a771ef533c66a3b37a73c44ef13f0b8904cc244bf6a8725771f5f2389d5d3b0",
+    "source_sha256": "4a771ef533c66a3b37a73c44ef13f0b8904cc244bf6a8725771f5f2389d5d3b0"
+  },
+  {
+    "package": "code",
+    "path": "configs/oe_experiments.json",
+    "source": "configs/oe_experiments.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 818,
+    "sha256": "6f679b88f38e6a05a0784d3e63c062581992230161fabdb69387b530a136dd5e",
+    "source_sha256": "07f8911ece5d417ca1a0bd322a643061ca425f928aa7af4aa9ed5202a2c7bda6"
+  },
+  {
+    "package": "code",
+    "path": "configs/oe_joint_v2.json",
+    "source": "configs/oe_joint_v2.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 2394,
+    "sha256": "6af985c2758e8098ca26f35c120f188bee35567355ffa5985162dba6cf6afdc9",
+    "source_sha256": "3a9e3b22cf9387bdc0c5532f789c3dbd4112f70ae7f17356d1dc5da441b3ad2b"
+  },
+  {
+    "package": "code",
+    "path": "configs/oe_source_declaration.json",
+    "source": "configs/oe_source_declaration.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 556,
+    "sha256": "8fbd9112bcd7f0491ed4f4be405ca67516d2ab78565e722d950a4d611438460b",
+    "source_sha256": "8fbd9112bcd7f0491ed4f4be405ca67516d2ab78565e722d950a4d611438460b"
+  },
+  {
+    "package": "code",
+    "path": "configs/oe_stability_v3.json",
+    "source": "configs/oe_stability_v3.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 3343,
+    "sha256": "1c7089623c8fce0e0326f2e2eeccabcc239140599613dd6cb8e4611f064dc68d",
+    "source_sha256": "ea1e23063b926da105c93d1a16783fdb4a012050529d2c78143da97f5d1dac36"
+  },
+  {
+    "package": "code",
+    "path": "configs/paper_protocol.json",
+    "source": "configs/paper_protocol.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 724,
+    "sha256": "41f99ee6143bd2ca4cdfc5addd968b17f7a6664446bcf995b7a2a268bc2d70df",
+    "source_sha256": "be76d12b86bef01452b1c21e8d2ab38a75e20aa577b1eebbe2e32c34c299ab0e"
+  },
+  {
+    "package": "code",
+    "path": "configs/paper_supplement.json",
+    "source": "configs/paper_supplement.json",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 206,
+    "sha256": "03f72300a54a6257f006ad5221ef88fe2347619c60f0c7375246058e7969d7fe",
+    "source_sha256": "286780747b931e2c15ebd9eae3c1991c6e3c5366458b96f9e37664cb622d19aa"
+  },
+  {
+    "package": "code",
+    "path": "configs/residual_diffusion.yaml",
+    "source": "configs/residual_diffusion.yaml",
+    "source_collection": "diffArgo",
+    "kind": "portable_config",
+    "bytes": 957,
+    "sha256": "de151cc0c5b9b1bc00c6c96e0ecfd471ed73e39932684c53de97be53bfb2cabe",
+    "source_sha256": "49c3fce4ba1da2e8f1f81943b5f0c7546c42aa9be3922672464d57ddf1a5ddc8"
+  },
+  {
+    "package": "code",
+    "path": "diffargo/__init__.py",
+    "source": "diffargo/__init__.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 101,
+    "sha256": "584aed00885a3620848f24d51d45ed53ed6c788419dc12c8cd8d92aafa3197b1",
+    "source_sha256": "584aed00885a3620848f24d51d45ed53ed6c788419dc12c8cd8d92aafa3197b1"
+  },
+  {
+    "package": "code",
+    "path": "diffargo/config.py",
+    "source": "diffargo/config.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 1168,
+    "sha256": "6017cb0a07df101e57085cb6ab574bcdfe64c4b0e0ef32a7cf16ac5139e478d1",
+    "source_sha256": "6017cb0a07df101e57085cb6ab574bcdfe64c4b0e0ef32a7cf16ac5139e478d1"
+  },
+  {
+    "package": "code",
+    "path": "diffargo/data.py",
+    "source": "diffargo/data.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 14634,
+    "sha256": "267b7e9b4dfd57f9ea03ab37c3f46c484096bfb2869bd2beffe6c5be1ae391a4",
+    "source_sha256": "267b7e9b4dfd57f9ea03ab37c3f46c484096bfb2869bd2beffe6c5be1ae391a4"
+  },
+  {
+    "package": "code",
+    "path": "diffargo/diffusion.py",
+    "source": "diffargo/diffusion.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 12615,
+    "sha256": "abf539b59cee3deb940e102697c108308405634135663d8f9a30eea0b1772190",
+    "source_sha256": "abf539b59cee3deb940e102697c108308405634135663d8f9a30eea0b1772190"
+  },
+  {
+    "package": "code",
+    "path": "diffargo/model.py",
+    "source": "diffargo/model.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 8205,
+    "sha256": "ce8205a16ce7d5076ada1abd79e40e4071a551681142d7b8087f095583ac36de",
+    "source_sha256": "ce8205a16ce7d5076ada1abd79e40e4071a551681142d7b8087f095583ac36de"
+  },
+  {
+    "package": "code",
+    "path": "diffargo/residual_rollout.py",
+    "source": "diffargo/residual_rollout.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 4964,
+    "sha256": "95a4307fb6d85068b74fadbe8fd409e3be223c7e99d6c1088fc99fb02283d20f",
+    "source_sha256": "95a4307fb6d85068b74fadbe8fd409e3be223c7e99d6c1088fc99fb02283d20f"
+  },
+  {
+    "package": "code",
+    "path": "diffargo/utils.py",
+    "source": "diffargo/utils.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 3220,
+    "sha256": "d47e3252ca6544f1d1205e3518bd1b8ff88e44e391c1dda8415105d72733b771",
+    "source_sha256": "d47e3252ca6544f1d1205e3518bd1b8ff88e44e391c1dda8415105d72733b771"
+  },
+  {
+    "package": "code",
+    "path": "ems_chunked_diagnostics.py",
+    "source": "ems_chunked_diagnostics.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 10324,
+    "sha256": "9ca751a79988a3f01ce4785668e002dffe1ba206a8f622befdaf0286855a015e",
+    "source_sha256": "9ca751a79988a3f01ce4785668e002dffe1ba206a8f622befdaf0286855a015e"
+  },
+  {
+    "package": "code",
+    "path": "ems_cycle.py",
+    "source": "ems_cycle.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 37986,
+    "sha256": "a92aff279a6a2f3e3d12897a6837dba97b8c2c04b8438ca04f970f1baaffadb8",
+    "source_sha256": "a92aff279a6a2f3e3d12897a6837dba97b8c2c04b8438ca04f970f1baaffadb8"
+  },
+  {
+    "package": "code",
+    "path": "ems_evaluate.py",
+    "source": "ems_evaluate.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 8090,
+    "sha256": "83c226bd9bcf8a26847fd3ee52d615cc2a9886bd0a73fcc869b8b2493bb30904",
+    "source_sha256": "83c226bd9bcf8a26847fd3ee52d615cc2a9886bd0a73fcc869b8b2493bb30904"
+  },
+  {
+    "package": "code",
+    "path": "ems_experiments.py",
+    "source": "ems_experiments.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 28134,
+    "sha256": "0a08c68f230a06e077c8c52b305b538a4ca6c82dab9d20b198327c76972087ac",
+    "source_sha256": "0a08c68f230a06e077c8c52b305b538a4ca6c82dab9d20b198327c76972087ac"
+  },
+  {
+    "package": "code",
+    "path": "ems_gaussian.py",
+    "source": "ems_gaussian.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 2351,
+    "sha256": "0b0293cafed7d7de25034fbf2c5791db61dbc8704de2aea354ca046f2081be6e",
+    "source_sha256": "0b0293cafed7d7de25034fbf2c5791db61dbc8704de2aea354ca046f2081be6e"
+  },
+  {
+    "package": "code",
+    "path": "ems_lowmem.py",
+    "source": "ems_lowmem.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 9084,
+    "sha256": "409027f62a207f656abacb3cbaf4bf7183a0cc01f7178d1485a50a1711f76b74",
+    "source_sha256": "409027f62a207f656abacb3cbaf4bf7183a0cc01f7178d1485a50a1711f76b74"
+  },
+  {
+    "package": "code",
+    "path": "ems_observations.py",
+    "source": "ems_observations.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 3877,
+    "sha256": "3e954227f734759193ccf66e56ab219008b294e81e6c412c3595bc3b743f973a",
+    "source_sha256": "3e954227f734759193ccf66e56ab219008b294e81e6c412c3595bc3b743f973a"
+  },
+  {
+    "package": "code",
+    "path": "ems_observer.py",
+    "source": "ems_observer.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 7259,
+    "sha256": "6813ea2fde60f5f68ad32ca4bc5e81d0d4d5a08207933dcc92c73978259bb962",
+    "source_sha256": "6813ea2fde60f5f68ad32ca4bc5e81d0d4d5a08207933dcc92c73978259bb962"
+  },
+  {
+    "package": "code",
+    "path": "ems_quick_observer.py",
+    "source": "ems_quick_observer.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 5080,
+    "sha256": "4163112a599947d79b9018881122460fcaf9f8db7b3694900f0af1bdc7ac25dc",
+    "source_sha256": "4163112a599947d79b9018881122460fcaf9f8db7b3694900f0af1bdc7ac25dc"
+  },
+  {
+    "package": "code",
+    "path": "ems_resource_probe/_common.py",
+    "source": "ems_resource_probe/_common.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 6258,
+    "sha256": "c57d924c5641143a2283cdd2a98d4fc5bd9c00159e94933e0c3d3831c45a0e63",
+    "source_sha256": "c57d924c5641143a2283cdd2a98d4fc5bd9c00159e94933e0c3d3831c45a0e63"
+  },
+  {
+    "package": "code",
+    "path": "ems_resource_probe/detect_resources.py",
+    "source": "ems_resource_probe/detect_resources.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 61607,
+    "sha256": "95cc3531aa29de37f4a817b70853c3d2ca264ac67f25f9ad5c30260c661c35e7",
+    "source_sha256": "95cc3531aa29de37f4a817b70853c3d2ca264ac67f25f9ad5c30260c661c35e7"
+  },
+  {
+    "package": "code",
+    "path": "ems_robust_quick.py",
+    "source": "ems_robust_quick.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 15172,
+    "sha256": "2068ee88c6ded7972df7f3c14d0d1d9d5849a4fdbb66b469a73ab0e88afa784c",
+    "source_sha256": "2068ee88c6ded7972df7f3c14d0d1d9d5849a4fdbb66b469a73ab0e88afa784c"
+  },
+  {
+    "package": "code",
+    "path": "ems_sections_2d.py",
+    "source": "ems_sections_2d.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 11377,
+    "sha256": "ac1663e4b3f0679c0a2bd580ffa517503cf87f249b8e96b899ddfa6ee0838a3a",
+    "source_sha256": "ac1663e4b3f0679c0a2bd580ffa517503cf87f249b8e96b899ddfa6ee0838a3a"
+  },
+  {
+    "package": "code",
+    "path": "ems_validate61.py",
+    "source": "ems_validate61.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 16633,
+    "sha256": "b6653d380870f8005029c61a09400eb0b80a8d759cd037d18727f8bed225696b",
+    "source_sha256": "b6653d380870f8005029c61a09400eb0b80a8d759cd037d18727f8bed225696b"
+  },
+  {
+    "package": "code",
+    "path": "ems_validate61_support.py",
+    "source": "ems_validate61_support.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 15446,
+    "sha256": "f71a9ce861edef8ab3be11c0b2f94356432b85a18e68f2e094089edd4ca47fd3",
+    "source_sha256": "f71a9ce861edef8ab3be11c0b2f94356432b85a18e68f2e094089edd4ca47fd3"
+  },
+  {
+    "package": "code",
+    "path": "environment.yml",
+    "source": "environment.yml",
+    "source_collection": "diffArgo",
+    "kind": "environment",
+    "bytes": 275,
+    "sha256": "c0606d15eb5487a174e775a47c1d91dbe859ef650a6de0aa488ee70575f8fe36",
+    "source_sha256": "c0606d15eb5487a174e775a47c1d91dbe859ef650a6de0aa488ee70575f8fe36"
+  },
+  {
+    "package": "code",
+    "path": "evaluate_residual_cycle.py",
+    "source": "evaluate_residual_cycle.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 5313,
+    "sha256": "cf5a1811718d08a55ba71c53587eb97636908f7e519eef78f4afcada1dd61330",
+    "source_sha256": "cf5a1811718d08a55ba71c53587eb97636908f7e519eef78f4afcada1dd61330"
+  },
+  {
+    "package": "code",
+    "path": "evaluate_rollout.py",
+    "source": "evaluate_rollout.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 16517,
+    "sha256": "79bdca407306d1f2918be6f650d36f27f1a94a2b5b65bff165432b5687548ad5",
+    "source_sha256": "79bdca407306d1f2918be6f650d36f27f1a94a2b5b65bff165432b5687548ad5"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_ems_sections_2d.py",
+    "source": "plot_ems_sections_2d.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 9479,
+    "sha256": "993873b074d5d1e587e7e67c1253a2e5adc44af7a28badee03b3186665bb8aed",
+    "source_sha256": "993873b074d5d1e587e7e67c1253a2e5adc44af7a28badee03b3186665bb8aed"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_figure2_zoom.py",
+    "source": "plot_figure2_zoom.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 11315,
+    "sha256": "7982bc25e8d633d64a5e4a2e47b907ccb3834bd0e78ef274dab2d65d83bb7bd5",
+    "source_sha256": "7982bc25e8d633d64a5e4a2e47b907ccb3834bd0e78ef274dab2d65d83bb7bd5"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_figure3.py",
+    "source": "plot_figure3.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 16772,
+    "sha256": "b1adebc2dafcdc41e0e2cf460432c9a829bd39342ff3bf28cdbc1e94cea4ea46",
+    "source_sha256": "b1adebc2dafcdc41e0e2cf460432c9a829bd39342ff3bf28cdbc1e94cea4ea46"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_figure4.py",
+    "source": "plot_figure4.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 171,
+    "sha256": "7c5492b1ddfd670a14fe9048ff35b84317171249b110e5c9912c45eb743c3361",
+    "source_sha256": "7c5492b1ddfd670a14fe9048ff35b84317171249b110e5c9912c45eb743c3361"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_figure4_recomputed_20261115.py",
+    "source": "plot_figure4_recomputed_20261115.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 11391,
+    "sha256": "5fcb15ffe4c826d13a3c177d2fccaaa3c5af60923cc799b5fd59069723aaf468",
+    "source_sha256": "5fcb15ffe4c826d13a3c177d2fccaaa3c5af60923cc799b5fd59069723aaf468"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_figure4_revised_summary.py",
+    "source": "plot_figure4_revised_summary.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 2950,
+    "sha256": "45b8e696b1f9897aa5ee6f4ac1c6eab0d90c4efb928cb290ee2465886883fa54",
+    "source_sha256": "45b8e696b1f9897aa5ee6f4ac1c6eab0d90c4efb928cb290ee2465886883fa54"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_figure4_typography.py",
+    "source": "plot_figure4_typography.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 3886,
+    "sha256": "7580add94ffaf0a29d8d0860e4f9364f632b4461a1e88a198b99b790edce9a3c",
+    "source_sha256": "7580add94ffaf0a29d8d0860e4f9364f632b4461a1e88a198b99b790edce9a3c"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_figure5.py",
+    "source": "plot_figure5.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 12026,
+    "sha256": "f2d8b99b4cc7de1b45afc6973a224111e6f28ec0330c2c8800a3ceb810b73aae",
+    "source_sha256": "f2d8b99b4cc7de1b45afc6973a224111e6f28ec0330c2c8800a3ceb810b73aae"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_figure8.py",
+    "source": "plot_figure8.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 12436,
+    "sha256": "7c4e7140d07e423dd9f4bfd20ddb85adda289354188904108c7d34e889d16d7b",
+    "source_sha256": "7c4e7140d07e423dd9f4bfd20ddb85adda289354188904108c7d34e889d16d7b"
+  },
+  {
+    "package": "code",
+    "path": "figures/plot_sections_ngeo.py",
+    "source": "plot_sections_ngeo.py",
+    "source_collection": "manuscript",
+    "kind": "figure_code",
+    "bytes": 14441,
+    "sha256": "f21bd9b80eaf5f7d1b6001cfdf5e8b1ec3aa766072fc8700478350ebc7b12e5c",
+    "source_sha256": "f21bd9b80eaf5f7d1b6001cfdf5e8b1ec3aa766072fc8700478350ebc7b12e5c"
+  },
+  {
+    "package": "code",
+    "path": "fit_spread_calibration.py",
+    "source": "fit_spread_calibration.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 7251,
+    "sha256": "ad4dbfdd08d6c4e0b8921aa5b1a5f90e2a6b5b669934198220a6b5546c05b2f5",
+    "source_sha256": "ad4dbfdd08d6c4e0b8921aa5b1a5f90e2a6b5b669934198220a6b5546c05b2f5"
+  },
+  {
+    "package": "code",
+    "path": "inspect_data.py",
+    "source": "inspect_data.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 2271,
+    "sha256": "e0a520cbd5b7e1166a601e4c7ebefb9cccc0ca301fc870ba4ebca793d93fb9a1",
+    "source_sha256": "e0a520cbd5b7e1166a601e4c7ebefb9cccc0ca301fc870ba4ebca793d93fb9a1"
+  },
+  {
+    "package": "code",
+    "path": "map_argo_to_glorys.py",
+    "source": "map_argo_to_glorys.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 13452,
+    "sha256": "a258c34a8cf7c5c06a7959cffa3fed0e8cdf5efd9f847a72e83289f201314b50",
+    "source_sha256": "a258c34a8cf7c5c06a7959cffa3fed0e8cdf5efd9f847a72e83289f201314b50"
+  },
+  {
+    "package": "code",
+    "path": "oe_buoyancy.py",
+    "source": "oe_buoyancy.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 6259,
+    "sha256": "fe79894b8b144ed2b29f401be51725312b0f4779ac35803ff64eb9da56ac8b36",
+    "source_sha256": "fe79894b8b144ed2b29f401be51725312b0f4779ac35803ff64eb9da56ac8b36"
+  },
+  {
+    "package": "code",
+    "path": "oe_cycle.py",
+    "source": "oe_cycle.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 1196,
+    "sha256": "e9465b2a071397b29fbe42173992effeb444c5da681dde2dc80725383a2fc46f",
+    "source_sha256": "e9465b2a071397b29fbe42173992effeb444c5da681dde2dc80725383a2fc46f"
+  },
+  {
+    "package": "code",
+    "path": "oe_experiments.py",
+    "source": "oe_experiments.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 22959,
+    "sha256": "5e8c9923dfb159af232c2f0aac3becef2298aca87cc5b94ed35dc54de37f3244",
+    "source_sha256": "5e8c9923dfb159af232c2f0aac3becef2298aca87cc5b94ed35dc54de37f3244"
+  },
+  {
+    "package": "code",
+    "path": "oe_joint_calibration.py",
+    "source": "oe_joint_calibration.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 6862,
+    "sha256": "647ee814a68e1870eb3961207db27e30dcfba7a7421cade930c4a33d26228a36",
+    "source_sha256": "647ee814a68e1870eb3961207db27e30dcfba7a7421cade930c4a33d26228a36"
+  },
+  {
+    "package": "code",
+    "path": "oe_joint_diagnostics.py",
+    "source": "oe_joint_diagnostics.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 16218,
+    "sha256": "04d93396f953ffc966f4b54d15bdfec2b3cb1585923b9770397c7d2be4c56536",
+    "source_sha256": "04d93396f953ffc966f4b54d15bdfec2b3cb1585923b9770397c7d2be4c56536"
+  },
+  {
+    "package": "code",
+    "path": "oe_joint_selection.py",
+    "source": "oe_joint_selection.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 5637,
+    "sha256": "9d444ae2388d7042bab805fafce321afaf47c9e8fe1ec1c01ce6829036420b10",
+    "source_sha256": "9d444ae2388d7042bab805fafce321afaf47c9e8fe1ec1c01ce6829036420b10"
+  },
+  {
+    "package": "code",
+    "path": "oe_physics.py",
+    "source": "oe_physics.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 15931,
+    "sha256": "823c8bf77faf3ed39e3ab367f926388264faf3f81446d06ee9760cbd6b999a08",
+    "source_sha256": "823c8bf77faf3ed39e3ab367f926388264faf3f81446d06ee9760cbd6b999a08"
+  },
+  {
+    "package": "code",
+    "path": "oe_stability.py",
+    "source": "oe_stability.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 13945,
+    "sha256": "90220348676bd5c0771cc477b021304cd0f887aa5c130a1b8f674d8ae69e2481",
+    "source_sha256": "90220348676bd5c0771cc477b021304cd0f887aa5c130a1b8f674d8ae69e2481"
+  },
+  {
+    "package": "code",
+    "path": "oe_stable_cycle.py",
+    "source": "oe_stable_cycle.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 35937,
+    "sha256": "ed06bc65b9c39ae3c951aec8befd819f489860f43c565d295146ba4683fafb52",
+    "source_sha256": "ed06bc65b9c39ae3c951aec8befd819f489860f43c565d295146ba4683fafb52"
+  },
+  {
+    "package": "code",
+    "path": "oe_stable_diffusion.py",
+    "source": "oe_stable_diffusion.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 13167,
+    "sha256": "24aa94d7375873570888a7357dfdfc9b0c195ff3aab75cef38723269cb36a56f",
+    "source_sha256": "24aa94d7375873570888a7357dfdfc9b0c195ff3aab75cef38723269cb36a56f"
+  },
+  {
+    "package": "code",
+    "path": "oe_stable_experiments.py",
+    "source": "oe_stable_experiments.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 31353,
+    "sha256": "96a874cb8d7d0bc4e4c8309ae6f1f83fed6e790855da3525ba410900cd073a06",
+    "source_sha256": "96a874cb8d7d0bc4e4c8309ae6f1f83fed6e790855da3525ba410900cd073a06"
+  },
+  {
+    "package": "code",
+    "path": "oe_stable_observer.py",
+    "source": "oe_stable_observer.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 1440,
+    "sha256": "d852693ab3f5fb10b03c4233d35be6083605a4465d34f8b1b57d0c9812790a36",
+    "source_sha256": "d852693ab3f5fb10b03c4233d35be6083605a4465d34f8b1b57d0c9812790a36"
+  },
+  {
+    "package": "code",
+    "path": "paper_metrics.py",
+    "source": "paper_metrics.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 7041,
+    "sha256": "3ec9544036f19cb43a9a529b3ee05ebc38800ebcff1270220860223e31e923e2",
+    "source_sha256": "3ec9544036f19cb43a9a529b3ee05ebc38800ebcff1270220860223e31e923e2"
+  },
+  {
+    "package": "code",
+    "path": "paper_supplement.py",
+    "source": "paper_supplement.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 15333,
+    "sha256": "dbb79d29813bd49c22d0037f6102b46f07b11e18fad72c3ec416897987d3cd50",
+    "source_sha256": "dbb79d29813bd49c22d0037f6102b46f07b11e18fad72c3ec416897987d3cd50"
+  },
+  {
+    "package": "code",
+    "path": "plot_ems_sections_2d.py",
+    "source": "plot_ems_sections_2d.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 9479,
+    "sha256": "993873b074d5d1e587e7e67c1253a2e5adc44af7a28badee03b3186665bb8aed",
+    "source_sha256": "993873b074d5d1e587e7e67c1253a2e5adc44af7a28badee03b3186665bb8aed"
+  },
+  {
+    "package": "code",
+    "path": "prepare_oe_argo.py",
+    "source": "prepare_oe_argo.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 14855,
+    "sha256": "f7baa40b44879336566b97753966103ef2d29e3c6084fc0b11769c01eeee6643",
+    "source_sha256": "f7baa40b44879336566b97753966103ef2d29e3c6084fc0b11769c01eeee6643"
+  },
+  {
+    "package": "code",
+    "path": "prepare_paper_argo.py",
+    "source": "prepare_paper_argo.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 8456,
+    "sha256": "5903eceea35b00e71b3281f3e6fbdae84670e9cd7dc4e1efd9cf73cd87c27962",
+    "source_sha256": "5903eceea35b00e71b3281f3e6fbdae84670e9cd7dc4e1efd9cf73cd87c27962"
+  },
+  {
+    "package": "code",
+    "path": "pyproject.toml",
+    "source": "pyproject.toml",
+    "source_collection": "diffArgo",
+    "kind": "environment",
+    "bytes": 438,
+    "sha256": "610596ad93a55cbe0c83974eeb5156f15ebd8c827d5df0aabf899d25b3797d34",
+    "source_sha256": "610596ad93a55cbe0c83974eeb5156f15ebd8c827d5df0aabf899d25b3797d34"
+  },
+  {
+    "package": "code",
+    "path": "requirements.txt",
+    "source": "requirements.txt",
+    "source_collection": "diffArgo",
+    "kind": "environment",
+    "bytes": 90,
+    "sha256": "9d1e4478f74804d674c6415d173cdc046f930babd18e5007899e016e16e95078",
+    "source_sha256": "9d1e4478f74804d674c6415d173cdc046f930babd18e5007899e016e16e95078"
+  },
+  {
+    "package": "code",
+    "path": "requirements_oe.txt",
+    "source": "requirements_oe.txt",
+    "source_collection": "diffArgo",
+    "kind": "environment",
+    "bytes": 32,
+    "sha256": "ff51429f030d27e512a3219ab941cc3457e771c4c14e1754d95cc61f924fbafd",
+    "source_sha256": "ff51429f030d27e512a3219ab941cc3457e771c4c14e1754d95cc61f924fbafd"
+  },
+  {
+    "package": "code",
+    "path": "residual_rollout_experiment.py",
+    "source": "residual_rollout_experiment.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 7851,
+    "sha256": "dd5c077d9f291b516dd0bc169fa5e8543288670b5cfe38b3452b0873b57ca528",
+    "source_sha256": "dd5c077d9f291b516dd0bc169fa5e8543288670b5cfe38b3452b0873b57ca528"
+  },
+  {
+    "package": "code",
+    "path": "test_ems_lowmem.py",
+    "source": "test_ems_lowmem.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 8931,
+    "sha256": "a5463867cfaf06f350ac75215e489e0e8757a886271fb7394d9fea429cce03b8",
+    "source_sha256": "a5463867cfaf06f350ac75215e489e0e8757a886271fb7394d9fea429cce03b8"
+  },
+  {
+    "package": "code",
+    "path": "test_ems_sections_2d.py",
+    "source": "test_ems_sections_2d.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 4600,
+    "sha256": "e1f3e3b7fba36b87d5ee1c6d97bf48ab0b430feefea30444140d3c96e04dfa00",
+    "source_sha256": "e1f3e3b7fba36b87d5ee1c6d97bf48ab0b430feefea30444140d3c96e04dfa00"
+  },
+  {
+    "package": "code",
+    "path": "test_ems_v1.py",
+    "source": "test_ems_v1.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 8346,
+    "sha256": "63125c14a329039d837ba0cffc4ef4e139bc594bad4ae14d5a7fe9a43371960c",
+    "source_sha256": "63125c14a329039d837ba0cffc4ef4e139bc594bad4ae14d5a7fe9a43371960c"
+  },
+  {
+    "package": "code",
+    "path": "tests/test_direct.py",
+    "source": "tests/test_direct.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 1673,
+    "sha256": "0bbfb63e5cc10214f3555c9ef22dba5716d4c93e42b6876a3da81f93280c7ff0",
+    "source_sha256": "0bbfb63e5cc10214f3555c9ef22dba5716d4c93e42b6876a3da81f93280c7ff0"
+  },
+  {
+    "package": "code",
+    "path": "tests/test_oe_extension.py",
+    "source": "tests/test_oe_extension.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 16225,
+    "sha256": "c35f0786ff6797dcaa5708f3ea252762ad1c3653d405e0b004491f2a7c7c06dc",
+    "source_sha256": "c35f0786ff6797dcaa5708f3ea252762ad1c3653d405e0b004491f2a7c7c06dc"
+  },
+  {
+    "package": "code",
+    "path": "tests/test_residual_rollout_end_to_end.py",
+    "source": "tests/test_residual_rollout_end_to_end.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 6430,
+    "sha256": "3731f49172753c2a4c74ed93b7a1fcdccb28489a59f6911c95da7d2eaf856b41",
+    "source_sha256": "3731f49172753c2a4c74ed93b7a1fcdccb28489a59f6911c95da7d2eaf856b41"
+  },
+  {
+    "package": "code",
+    "path": "tests/test_residual_rollout_finetune.py",
+    "source": "tests/test_residual_rollout_finetune.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 4019,
+    "sha256": "d81adada50d1f6c9efb247f010fc7ee45272796faba064e5ec5bd3cc509d4200",
+    "source_sha256": "d81adada50d1f6c9efb247f010fc7ee45272796faba064e5ec5bd3cc509d4200"
+  },
+  {
+    "package": "code",
+    "path": "tests/test_spread_calibration.py",
+    "source": "tests/test_spread_calibration.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 1683,
+    "sha256": "9cb00a0c8a970c6573fc82fb98cbf748d646c8ef55f4604a71ad6867205bcf6a",
+    "source_sha256": "9cb00a0c8a970c6573fc82fb98cbf748d646c8ef55f4604a71ad6867205bcf6a"
+  },
+  {
+    "package": "code",
+    "path": "train_direct.py",
+    "source": "train_direct.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 15130,
+    "sha256": "32960f15ecb771011c5921f9418e4004666d5e3ae7f2fb0969f217984bf792a6",
+    "source_sha256": "32960f15ecb771011c5921f9418e4004666d5e3ae7f2fb0969f217984bf792a6"
+  },
+  {
+    "package": "code",
+    "path": "train_residual_diffusion.py",
+    "source": "train_residual_diffusion.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 9242,
+    "sha256": "79e22d28c024f0e11a03df7391bd81644571c72a85e7334b9d9aaf11f6492df8",
+    "source_sha256": "79e22d28c024f0e11a03df7391bd81644571c72a85e7334b9d9aaf11f6492df8"
+  },
+  {
+    "package": "code",
+    "path": "train_residual_rollout.py",
+    "source": "train_residual_rollout.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 14353,
+    "sha256": "80f85acf43af91f98727d736c99375787862e9acbcbe2612c7d6dad799f01f05",
+    "source_sha256": "80f85acf43af91f98727d736c99375787862e9acbcbe2612c7d6dad799f01f05"
+  },
+  {
+    "package": "code",
+    "path": "train_rollout.py",
+    "source": "train_rollout.py",
+    "source_collection": "diffArgo",
+    "kind": "code",
+    "bytes": 25995,
+    "sha256": "df4935fd249fc85c86e373013103cb53029e98318e2b94be1db4f4d52c9e2358",
+    "source_sha256": "df4935fd249fc85c86e373013103cb53029e98318e2b94be1db4f4d52c9e2358"
+  }
+]

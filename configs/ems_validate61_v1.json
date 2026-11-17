@@ -1,0 +1,18 @@
+{
+  "schema": "ems-partial-validation-v1",
+  "analysis_id": "validate61_skip37_39_v1",
+  "base_config": "configs/ems_v1_legacy.json",
+  "phase": "validate",
+  "expected_planned_count": 64,
+  "expected_included_count": 61,
+  "excluded_tasks": [
+    {"task_id": 37, "method": "selected", "season": "summer", "month": 7, "seed": 20261017},
+    {"task_id": 38, "method": "selected", "season": "autumn", "month": 10, "seed": 20261006},
+    {"task_id": 39, "method": "selected", "season": "autumn", "month": 10, "seed": 20261017}
+  ],
+  "reason": "Author requested cessation of these three cases after reported runtimes exceeding ten hours. Runtime was not independently checked; unfinished scores are not used or imputed.",
+  "post_execution_amendment": true,
+  "expected_primary_blocks": 5,
+  "expected_balanced_blocks": 4,
+  "formal_final_authorized": false
+}
