@@ -135,18 +135,10 @@ This is a dry run unless `--run` is supplied. Supply and verify all real input a
 | `tests/`, `test_ems_*.py` | Unit, regression and synthetic integration tests |
 | `docs/`, `provenance/` | Input contract, experiment settings and source records |
 
-## 🔍 Result provenance
 
-The companion archive distinguishes the revised Figure 4 depthwise RMSE summary from archived daily scores. The revised SA-Diff aggregate temperature/salinity RMSE is 0.81881 degrees C / 0.19859, corresponding to reductions of 3.34% / 0.91%. Figure 2 and probabilistic diagnostics retain their archived daily-score sources. No revised daily series or CRPS is inferred from aggregate RMSE.
-
-The main 2019 evaluation is a development evaluation whose first 30 days overlap parameter selection. Planned test-year configuration fields are not evidence that those experiments were completed. These version and evaluation boundaries are preserved in the companion data documentation.
 
 ## 📚 License and citation
 
 Original code and associated documentation are licensed under **MIT**; see [LICENSE](LICENSE), [rights](RIGHTS.md) and [third-party notices](THIRD_PARTY_NOTICES.md). Original companion data/model artifacts use CC BY 4.0. Upstream GLORYS/Argo material and dependencies retain their own terms.
 
-See [citation instructions](docs/CITATION_TEMPLATE.md). Add the actual data DOI and article identifier when assigned; no publication or repository DOI is fabricated. Scientific Agent Skills supported documentation and evidence checks, as recorded in those instructions.
 
-[^1]: GitHub Docs. About large files on GitHub. https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
-[^2]: Copernicus Marine Service. Global Ocean Physics Reanalysis. https://doi.org/10.48670/moi-00021
-[^3]: Argo programme. Data access. https://argo.ucsd.edu/data/
